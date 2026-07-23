@@ -117,9 +117,9 @@ a {
 
 .logo-stage img {
   width: 100%;
-  min-height: 260px;
-  max-height: 520px;
-  object-fit: cover;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
   object-position: center;
   filter: none;
 }
@@ -130,8 +130,8 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 390px);
-  gap: clamp(24px, 4vw, 56px);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 350px);
+  gap: clamp(20px, 3.4vw, 44px);
   align-items: center;
   min-height: auto;
   padding: clamp(34px, 5vw, 76px) clamp(18px, 5vw, 72px) clamp(36px, 5vw, 64px);
@@ -181,9 +181,9 @@ h3 {
 }
 
 h1 {
-  max-width: 660px;
-  margin-top: 14px;
-  font-size: clamp(2.45rem, 5.4vw, 5.25rem);
+  max-width: 560px;
+  margin-top: 12px;
+  font-size: clamp(2rem, 4.4vw, 4.25rem);
 }
 
 h2 {
@@ -195,26 +195,26 @@ h3 {
 }
 
 .hero-text {
-  max-width: 620px;
-  margin: 18px 0 0;
+  max-width: 560px;
+  margin: 14px 0 0;
   color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(0.98rem, 1.35vw, 1.12rem);
+  font-size: clamp(0.9rem, 1.12vw, 1rem);
 }
 
 .hero-list {
   display: grid;
-  gap: 8px;
-  max-width: 650px;
+  gap: 6px;
+  max-width: 560px;
   padding: 0;
-  margin: 22px 0 0;
+  margin: 18px 0 0;
   list-style: none;
 }
 
 .hero-list li {
   position: relative;
-  padding-left: 26px;
+  padding-left: 22px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.95rem;
+  font-size: 0.86rem;
   font-weight: 800;
 }
 
@@ -223,8 +223,8 @@ h3 {
   position: absolute;
   left: 0;
   top: 0.42em;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background: var(--orange);
   border-radius: 50%;
 }
@@ -233,13 +233,13 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .quote-card {
   position: relative;
-  max-width: 390px;
-  padding: clamp(14px, 2.2vw, 20px);
+  max-width: 350px;
+  padding: clamp(12px, 1.8vw, 16px);
   background: rgba(18, 18, 18, 0.94);
   border: 2px solid var(--orange);
   border-radius: 8px;
@@ -271,7 +271,7 @@ h3 {
 }
 
 .service-tabs button {
-  min-height: 36px;
+  min-height: 32px;
   color: var(--white);
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -295,31 +295,31 @@ h3 {
 
 .quote-title h2 {
   margin-top: 4px;
-  font-size: clamp(1.45rem, 2.3vw, 2rem);
+  font-size: clamp(1.28rem, 2vw, 1.7rem);
 }
 
 .quote-title p {
-  margin: 8px 0 12px;
+  margin: 6px 0 10px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 }
 
 form {
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 label {
   display: grid;
   gap: 6px;
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 900;
 }
 
 select {
   width: 100%;
-  min-height: 42px;
+  min-height: 38px;
   padding: 0 12px;
   color: var(--white);
   background: #1f1f1f;
@@ -335,7 +335,7 @@ select {
 }
 
 .quick-select button {
-  min-height: 38px;
+  min-height: 34px;
   color: var(--white);
   background: #242424;
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -352,9 +352,9 @@ select {
 .price-select button {
   display: grid;
   gap: 2px;
-  min-height: 48px;
+  min-height: 42px;
   align-content: center;
-  font-size: 0.86rem;
+  font-size: 0.78rem;
 }
 
 .price-select small {
@@ -377,7 +377,7 @@ select {
 .summary {
   display: grid;
   gap: 4px;
-  padding: 14px;
+  padding: 12px;
   color: rgba(255, 255, 255, 0.78);
   background: var(--black);
   border-radius: 8px;
@@ -399,7 +399,7 @@ select {
 
 .summary strong {
   color: var(--white);
-  font-size: 1.22rem;
+  font-size: 1.08rem;
 }
 
 .summary small {
@@ -413,8 +413,8 @@ select {
 }
 
 .quote-details div {
-  min-height: 62px;
-  padding: 10px;
+  min-height: 56px;
+  padding: 9px;
   background: #070707;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 8px;
@@ -437,8 +437,8 @@ select {
 }
 
 .quote-card .button-primary {
-  min-height: 48px;
-  font-size: 0.96rem;
+  min-height: 42px;
+  font-size: 0.88rem;
 }
 
 .card-note {

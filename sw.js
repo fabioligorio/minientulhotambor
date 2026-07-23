@@ -1,4 +1,4 @@
-const CACHE_NAME = "mini-entulho-tambores-v27";
+const CACHE_NAME = "mini-entulho-tambores-v30";
 const ASSETS = [
   "./",
   "index.html",

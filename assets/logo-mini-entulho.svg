@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mini Entulho Tambores</title>
+  <desc id="desc">Logomarca com tambor verde, detalhes laranja e texto preto dentro do tambor.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <g transform="translate(92 54)">
+    <path d="M604 188c0 78-112 142-250 142S104 266 104 188 216 46 354 46s250 64 250 142Z" fill="#ffffff"/>
+    <path d="M604 188c0 78-112 142-250 142S104 266 104 188 216 46 354 46s250 64 250 142Z" fill="none" stroke="#123f2d" stroke-width="38"/>
+    <path d="M120 180v176c0 70 104 126 234 126s234-56 234-126V180c-39 61-129 102-234 102S159 241 120 180Z" fill="#123f2d"/>
+    <path d="M120 180v176c0 70 104 126 234 126s234-56 234-126V180" fill="none" stroke="#123f2d" stroke-width="38" stroke-linejoin="round"/>
+    <path d="M124 356c42 55 129 91 230 91s188-36 230-91" fill="none" stroke="#f26a21" stroke-width="18" stroke-linecap="round"/>
+    <path d="M138 276c47 42 126 68 216 68s169-26 216-68" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".95"/>
+    <path d="M142 178c48 39 126 64 212 64s164-25 212-64" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".95"/>
+    <path d="M222 34 316 8l26 92-93 26-27-92Z" fill="#f26a21"/>
+    <path d="M373 20 458 6l48 88-74 38-59-112Z" fill="#202521"/>
+    <path d="M496 56 568 88l-30 76-85-20 43-88Z" fill="#5f6762"/>
+    <path d="M240 69h84M256 112h86M274 28l24 85" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M393 64h70M425 24l33 78" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <g aria-label="Mini Entulho Tambores">
+      <text x="354" y="236" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" fill="#202521">MINI ENTULHO</text>
+      <text x="354" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" fill="#202521">TAMBORES</text>
+    </g>
+  </g>
+</svg>

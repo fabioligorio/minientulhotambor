@@ -1,0 +1,18 @@
+{
+  "name": "Mini Entulho Tambores",
+  "short_name": "Mini Entulho",
+  "description": "Retirada de entulho com tambores de 200 litros em Fazenda Rio Grande.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#070707",
+  "theme_color": "#121212",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "imagens/logo-transparente.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

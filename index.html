@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mini Entulho Tambores em Fazenda Rio Grande: locacao de tambores de 200 litros para entulho de reformas, sem cacamba na rua."
+    />
+    <meta name="theme-color" content="#111111" />
+    <title>Mini Entulho Tambores | Locacao de tambores para entulho</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="imagens/logo-transparente.png" />
+    <link rel="apple-touch-icon" href="imagens/logo-transparente.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Mini Entulho Tambores">
+        <img src="imagens/logo-transparente.png" alt="Mini Entulho Tambores" />
+      </a>
+      <nav class="nav" aria-label="Navegacao principal">
+        <a href="#planos">Planos</a>
+        <a href="#processo">Como funciona</a>
+        <a href="#videos">Videos</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="topbar-action" href="https://wa.me/5541999999999?text=Ola%2C%20quero%20pedir%20tambores%20para%20entulho" target="_blank" rel="noreferrer">
+        Falar Agora
+      </a>
+    </header>
+
+    <main id="inicio">
+      <section class="logo-stage" aria-label="Marca Mini Entulho Tambores">
+        <img src="imagens/banner.png" alt="Banner Mini Entulho Tambores" />
+      </section>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="hero-badge">Atendimento em Fazenda Rio Grande e regiao</div>
+          <h1>Locacao de Tambores para Entulho.</h1>
+          <p class="hero-text">
+            Entregamos os tambores no seu local. Voce preenche, a gente recolhe e descarta corretamente. Sem cacamba grande, sem ocupar vaga e sem burocracia.
+          </p>
+
+          <ul class="hero-list">
+            <li>Tambores de 200L: cabem em qualquer espaco</li>
+            <li>Locacao com retirada ou troca programada</li>
+            <li>Descarte responsavel para pequenas reformas</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#orcamento">Simular Orcamento</a>
+            <a class="button button-secondary" href="https://wa.me/5541999999999?text=Ola%2C%20quero%20falar%20com%20a%20Mini%20Entulho%20Tambores" target="_blank" rel="noreferrer">
+              Falar Agora
+            </a>
+          </div>
+        </div>
+
+        <aside class="quote-card" id="orcamento" aria-label="Simulador de orcamento">
+          <div class="service-tabs" aria-label="Tipos de servico">
+            <button class="active" type="button">Residencial</button>
+            <button type="button">Comercial</button>
+          </div>
+
+          <form id="quoteForm">
+            <div class="quote-title">
+              <span>Mais popular</span>
+              <h2>Residencial</h2>
+              <p>Reformas, limpeza de quintal e pequenos descartes. Ideal para apartamentos, casas e locais com pouco espaco.</p>
+            </div>
+
+            <div class="quick-select price-select" aria-label="Selecao rapida de quantidade">
+              <button type="button" data-qty="1">1x <small>R$ 100</small></button>
+              <button type="button" data-qty="2">2x <small>R$ 180</small></button>
+              <button type="button" data-qty="3">3x <small>R$ 240</small></button>
+              <button type="button" data-qty="4">4x <small>R$ 280</small></button>
+              <button type="button" data-qty="5">5x <small>R$ 320</small></button>
+            </div>
+
+            <label class="select-line">
+              Quantidade
+              <select id="drumQty">
+                <option value="1">1 tambor de 200L</option>
+                <option value="2">2 tambores de 200L</option>
+                <option value="3">3 tambores de 200L</option>
+                <option value="4">4 tambores de 200L</option>
+                <option value="5">5 tambores de 200L</option>
+                <option value="6">6 a 10 tambores</option>
+              </select>
+            </label>
+
+            <div class="summary light-summary">
+              <span>Resumo do pedido</span>
+              <strong id="summaryQty">1 tambor de 200L</strong>
+              <small id="summaryCapacity">Capacidade aproximada: 5 carrinhos de mao</small>
+            </div>
+
+            <div class="quote-details">
+              <div>
+                <span>Prazo</span>
+                <strong>Ate 5 dias</strong>
+              </div>
+              <div>
+                <span>Total estimado</span>
+                <strong id="summaryPrice">R$ 100</strong>
+              </div>
+            </div>
+
+            <a class="button button-primary button-full" id="quoteLink" href="https://wa.me/5541999999999" target="_blank" rel="noreferrer">
+              Fazer Pedido
+            </a>
+            <p class="card-note">Valores de referencia para simulacao. Confirme disponibilidade, bairro e condicoes pelo WhatsApp.</p>
+          </form>
+        </aside>
+      </section>
+
+      <section class="video-section" id="videos">
+        <div class="section-head centered">
+          <p>Veja o servico</p>
+          <h2>Videos da operacao</h2>
+          <span>Espaco para mostrar entrega, retirada, movimentacao dos tambores e exemplos reais de obra.</span>
+        </div>
+        <div class="video-grid">
+          <article>
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video 1 - Mini Entulho Tambores"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Entrega dos tambores</h3>
+            <p>Mostre como os tambores chegam ao cliente e como ficam posicionados na obra.</p>
+          </article>
+          <article>
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video 2 - Mini Entulho Tambores"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h3>Retirada e descarte</h3>
+            <p>Mostre a retirada dos tambores cheios e explique o destino correto do entulho.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="processo">
+        <img src="imagens/instu.png" alt="Instrucoes de uso dos tambores Mini Entulho Tambores" />
+      </section>
+
+      <section class="materials" id="materiais">
+        <img src="imagens/objetos.png" alt="Objetos e materiais permitidos e nao permitidos nos tambores" />
+      </section>
+
+      <section class="cta-band">
+        <div>
+          <p>Atendimento regional</p>
+          <h2>Base em Fazenda Rio Grande.</h2>
+          <span>Envie seu endereco para confirmarmos disponibilidade, quantidade indicada e condicoes de acesso.</span>
+        </div>
+        <a class="button button-primary" href="https://wa.me/5541999999999?text=Ola%2C%20quero%20verificar%20atendimento%20no%20meu%20endereco" target="_blank" rel="noreferrer">
+          Verificar atendimento
+        </a>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="section-head">
+          <p>Duvidas frequentes</p>
+          <h2>Perguntas comuns</h2>
+        </div>
+        <details>
+          <summary>O servico inclui mao de obra para carregar?</summary>
+          <p>A proposta principal e entregar, retirar e destinar os tambores. Se precisar de carregamento, combine no atendimento.</p>
+        </details>
+        <details>
+          <summary>Quanto tempo posso ficar com o tambor?</summary>
+          <p>O prazo e combinado no pedido conforme agenda, quantidade e necessidade da obra.</p>
+        </details>
+        <details>
+          <summary>Serve para apartamento?</summary>
+          <p>Sim. O tambor e indicado para locais onde cacambas grandes nao entram ou causam transtorno.</p>
+        </details>
+        <details>
+          <summary>O que acontece se encher antes do prazo?</summary>
+          <p>Voce chama pelo WhatsApp e combinamos retirada ou troca por outro tambor vazio.</p>
+        </details>
+      </section>
+    </main>
+
+    <a class="floating-whatsapp" href="https://wa.me/5541999999999?text=Ola%2C%20quero%20um%20orcamento%20da%20Mini%20Entulho%20Tambores" target="_blank" rel="noreferrer">
+      WhatsApp
+    </a>
+
+    <footer class="footer">
+      <strong>Mini Entulho Tambores</strong>
+      <span>Locacao de tambores de 200 litros para entulho de obra.</span>
+      <a href="#inicio">Voltar ao topo</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

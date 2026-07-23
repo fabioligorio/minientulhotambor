@@ -130,8 +130,8 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 460px);
-  gap: clamp(28px, 4.8vw, 72px);
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 390px);
+  gap: clamp(24px, 4vw, 56px);
   align-items: center;
   min-height: auto;
   padding: clamp(34px, 5vw, 76px) clamp(18px, 5vw, 72px) clamp(36px, 5vw, 64px);
@@ -181,9 +181,9 @@ h3 {
 }
 
 h1 {
-  max-width: 780px;
-  margin-top: 18px;
-  font-size: clamp(3.1rem, 7vw, 6.9rem);
+  max-width: 660px;
+  margin-top: 14px;
+  font-size: clamp(2.45rem, 5.4vw, 5.25rem);
 }
 
 h2 {
@@ -195,25 +195,26 @@ h3 {
 }
 
 .hero-text {
-  max-width: 690px;
-  margin: 22px 0 0;
+  max-width: 620px;
+  margin: 18px 0 0;
   color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(1.08rem, 1.75vw, 1.34rem);
+  font-size: clamp(0.98rem, 1.35vw, 1.12rem);
 }
 
 .hero-list {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   max-width: 650px;
   padding: 0;
-  margin: 28px 0 0;
+  margin: 22px 0 0;
   list-style: none;
 }
 
 .hero-list li {
   position: relative;
-  padding-left: 30px;
+  padding-left: 26px;
   color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
   font-weight: 800;
 }
 
@@ -222,8 +223,8 @@ h3 {
   position: absolute;
   left: 0;
   top: 0.42em;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   background: var(--orange);
   border-radius: 50%;
 }
@@ -232,14 +233,15 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .quote-card {
   position: relative;
-  padding: clamp(18px, 3vw, 26px);
+  max-width: 390px;
+  padding: clamp(14px, 2.2vw, 20px);
   background: rgba(18, 18, 18, 0.94);
-  border: 3px solid var(--orange);
+  border: 2px solid var(--orange);
   border-radius: 8px;
   box-shadow: var(--shadow);
 }
@@ -251,25 +253,25 @@ h3 {
   left: 22px;
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 0 14px;
+  min-height: 32px;
+  padding: 0 12px;
   color: var(--white);
   background: var(--orange);
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 900;
 }
 
 .service-tabs {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  gap: 6px;
   margin-top: 8px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .service-tabs button {
-  min-height: 42px;
+  min-height: 36px;
   color: var(--white);
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -286,36 +288,38 @@ h3 {
 
 .quote-title span {
   color: var(--orange);
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .quote-title h2 {
-  margin-top: 6px;
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin-top: 4px;
+  font-size: clamp(1.45rem, 2.3vw, 2rem);
 }
 
 .quote-title p {
-  margin: 10px 0 18px;
+  margin: 8px 0 12px;
   color: rgba(255, 255, 255, 0.72);
+  font-size: 0.9rem;
 }
 
 form {
   display: grid;
-  gap: 14px;
+  gap: 10px;
 }
 
 label {
   display: grid;
-  gap: 8px;
+  gap: 6px;
   color: var(--white);
+  font-size: 0.9rem;
   font-weight: 900;
 }
 
 select {
   width: 100%;
-  min-height: 50px;
+  min-height: 42px;
   padding: 0 12px;
   color: var(--white);
   background: #1f1f1f;
@@ -327,11 +331,11 @@ select {
 .quick-select {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 8px;
+  gap: 6px;
 }
 
 .quick-select button {
-  min-height: 44px;
+  min-height: 38px;
   color: var(--white);
   background: #242424;
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -348,13 +352,14 @@ select {
 .price-select button {
   display: grid;
   gap: 2px;
-  min-height: 58px;
+  min-height: 48px;
   align-content: center;
+  font-size: 0.86rem;
 }
 
 .price-select small {
   color: inherit;
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   font-weight: 800;
 }
 
@@ -372,7 +377,7 @@ select {
 .summary {
   display: grid;
   gap: 4px;
-  padding: 18px;
+  padding: 14px;
   color: rgba(255, 255, 255, 0.78);
   background: var(--black);
   border-radius: 8px;
@@ -394,7 +399,7 @@ select {
 
 .summary strong {
   color: var(--white);
-  font-size: 1.55rem;
+  font-size: 1.22rem;
 }
 
 .summary small {
@@ -404,12 +409,12 @@ select {
 .quote-details {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 8px;
 }
 
 .quote-details div {
-  min-height: 76px;
-  padding: 14px;
+  min-height: 62px;
+  padding: 10px;
   background: #070707;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 8px;
@@ -422,7 +427,7 @@ select {
 
 .quote-details span {
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.78rem;
 }
 
 .quote-details strong {
@@ -432,14 +437,14 @@ select {
 }
 
 .quote-card .button-primary {
-  min-height: 58px;
-  font-size: 1.05rem;
+  min-height: 48px;
+  font-size: 0.96rem;
 }
 
 .card-note {
   margin: 0;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.9rem;
+  font-size: 0.78rem;
 }
 
 .video-section,

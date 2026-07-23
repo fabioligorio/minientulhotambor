@@ -900,6 +900,53 @@ details p {
 }
 
 @media (max-width: 860px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-stage {
+    order: 0;
+  }
+
+  .hero {
+    display: contents;
+  }
+
+  .hero-copy {
+    order: 1;
+    padding: clamp(34px, 5vw, 76px) clamp(18px, 5vw, 72px) clamp(36px, 5vw, 64px);
+    background:
+      linear-gradient(90deg, rgba(7, 7, 7, 0.96), rgba(7, 7, 7, 0.78) 58%, rgba(7, 7, 7, 0.48)),
+      url("imagens/fundo2.png") center / cover;
+  }
+
+  .video-section {
+    order: 2;
+  }
+
+  .quote-card {
+    order: 3;
+    width: min(350px, calc(100% - 36px));
+    margin: 26px auto;
+  }
+
+  .process {
+    order: 4;
+  }
+
+  .materials {
+    order: 5;
+  }
+
+  .cta-band {
+    order: 6;
+  }
+
+  .faq {
+    order: 7;
+  }
+
   .topbar {
     grid-template-columns: 1fr auto;
   }
@@ -932,7 +979,18 @@ details p {
   }
 
   h1 {
-    font-size: clamp(2.65rem, 15vw, 4.35rem);
+    font-size: clamp(1.72rem, 10vw, 2.75rem);
+  }
+
+  .hero-badge {
+    justify-self: center;
+    width: max-content;
+    max-width: calc(100vw - 36px);
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: clamp(0.56rem, 2.5vw, 0.68rem);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
   }
 
   .hero-actions,
